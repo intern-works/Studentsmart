@@ -382,3 +382,85 @@
 "West Godavari Instt Of Science And Engineering, Nallajerla",
 "Ygvu Ysr Engineering College, Proddatur",
 "Yogananda Inst Of Technology And Science, Tirupathi"
+fatal: not a git repository (or any of the parent directories): .git
+PS D:\testingonce> git init
+Initialized empty Git repository in D:/testingonce/.git/
+PS D:\testingonce> git add .
+>> git commit -m "Initial project commit"
+>> 
+warning: in the working copy of 'studentsmart_sidebar_chat.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'updated_about_modal (1).html', LF will be replaced by CRLF the next time Git touches it
+[master (root-commit) 646479b] Initial project commit
+ 31 files changed, 72307 insertions(+)
+ create mode 100644 1.html
+ create mode 100644 app.py
+ create mode 100644 books.html
+ create mode 100644 buy.html
+ create mode 100644 buy1.html
+ create mode 100644 buy2.html
+ create mode 100644 clothes.html
+ create mode 100644 edutrade.db
+ create mode 100644 electronics.html
+ create mode 100644 index.html
+ create mode 100644 instance/edutrade.db
+ create mode 100644 j.java
+ create mode 100644 my-listings.html
+ create mode 100644 my-wishlist.html
+ create mode 100644 profiledashboard.html
+ create mode 100644 readme.md
+ create mode 100644 static/uploads/2bc944f0-ea78-4371-a8d3-fcf4101d2d5d_hero.jpg
+ create mode 100644 static/uploads/5d32fc5b-8c94-44e3-919d-24a21ff30d84_Words.jpeg
+ create mode 100644 static/uploads/83a68cbe-854b-4424-b43e-18069ecccd8a_c.jpg
+ create mode 100644 static/uploads/Colleges.txt
+ create mode 100644 static/uploads/college_proof_2_3102759c-1298-4a95-893c-979a40989783.jpg
+ create mode 100644 static/uploads/profile_2_0c8d1c6b-8754-4aa9-b165-4b606c14807c.png
+ create mode 100644 static/uploads/profile_2_e7314d4b-d55a-4645-915a-a11109261180.jpg
+ create mode 100644 stationery.html
+ create mode 100644 studentsmart_sidebar_chat.html
+ create mode 100644 templates/confirmation_denied.html
+ create mode 100644 templates/confirmation_error.html
+ create mode 100644 templates/confirmation_success.html
+ create mode 100644 templates/notifications.html
+ create mode 100644 templates/purchase_response.html
+ create mode 100644 updated_about_modal (1).html
+PS D:\testingonce> git remote remove origin
+>>
+error: No such remote: 'origin'
+PS D:\testingonce> git remote add origin https://github.com/intern-works/Studentsmart.git
+>>
+PS D:\testingonce> git branch -M main
+>>
+PS D:\testingonce> git push -u origin main
+>>
+remote: Permission to intern-works/Studentsmart.git denied to SSM2025-R.
+fatal: unable to access 'https://github.com/intern-works/Studentsmart.git/': The requested URL returned error: 403
+PS D:\testingonce> git credential-manager clear
+>>
+Required command was not provided.
+Unrecognized command or argument 'clear'.
+
+Description:
+
+Usage:
+  git-credential-manager [command] [options]
+
+Options:
+  --no-ui         Do not use graphical user interface prompts
+  --version       Show version information
+  -?, -h, --help  Show help and usage information
+
+Commands:
+  get          [Git] Return a stored credential
+  store        [Git] Store a credential
+  erase        [Git] Erase a stored credential
+  configure    Configure Git Credential Manager as the Git credential helper
+  unconfigure  Unconfigure Git Credential Manager as the Git credential helper
+  diagnose     Run diagnostics and gather logs to diagnose problems with Git Credential Manager
+  azure-repos  Commands for interacting with the Azure Repos host provider
+  github       Commands for interacting with the GitHub host provider
+
+PS D:\testingonce> git push -u origin main
+>>
+remote: Permission to intern-works/Studentsmart.git denied to SSM2025-R.
+fatal: unable to access 'https://github.com/intern-works/Studentsmart.git/': The requested URL returned error: 403
+PS D:\testingonce> 
